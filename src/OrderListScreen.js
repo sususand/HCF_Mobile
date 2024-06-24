@@ -102,7 +102,7 @@ const OrderListScreen = ({ navigation }) => {
             autoCapitalize="none"
             autoCorrect={false}
             style={styles.inputStyle}
-            placeholder="Search"
+            placeholder="Search with order no, date and truck no."
             value={term}
             onChangeText={(value) => changeTerm(value)}
           />
@@ -199,7 +199,7 @@ const styles = StyleSheet.create({
   },
   inputStyle: {
     flex: 1,
-    fontSize: 18,
+    fontSize: 14,
     paddingHorizontal: 8,
   },
   iconStyle: {

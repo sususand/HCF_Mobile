@@ -18,10 +18,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.julietdiana.HCFMobile"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3442e9d1-f98a-4195-bec5-3a74d59e35e1"
+      }
+    },
+    "owner": "julietdiana"
   }
 }
